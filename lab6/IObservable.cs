@@ -9,6 +9,6 @@ namespace lab6
     public interface IObservable//для посещaемых классов
     {
         int GetStateOfMetric();
-        void Accept(IObserver observer);//принятие посетителя
+       
     }
 }

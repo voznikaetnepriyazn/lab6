@@ -17,9 +17,5 @@ namespace lab6
         {
             return state;
         }
-        public void Accept(IObserver observer)
-        {
-            observer.Visit(this);
-        }
     }
 }
